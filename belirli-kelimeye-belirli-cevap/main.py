@@ -28,7 +28,7 @@ while True:
 
         if comnt.author.name.lower() in config["sikilmesi_gereken_hesaplar"]:
 
-            if config["tetikleyici"] in "".join(comnt.body.lower().split(" ")).replace(".","").replace(",",""):
+            if "".join(config["tetikleyici"].split(" ")).lower().replace(",","").replace(".","") in "".join(comnt.body.lower().split(" ")).replace(".","").replace(",",""):
                 asd = randomtextsec()
                 print(comnt.author.name+" -- "+asd[0:25])
                 comnt.reply(body=f"{asd}. ({config['tetikleyici']})\n\n^(Bu bir bot. {comnt.author.name} adlı şahısın annesini sikmek için geliştirildi)")
