@@ -1,0 +1,2 @@
+Evilparser: github.com/evilja/bots/main/evilparser
+PRAW: (on terminal/cmd/powershell) python3 -m pip install praw
