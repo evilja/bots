@@ -13,7 +13,7 @@ import warnings
 import numpy as np
 from pathlib import Path
 from difflib import SequenceMatcher
-import evilparserdev
+import evilparser
 
 
 warnings.filterwarnings('ignore')
