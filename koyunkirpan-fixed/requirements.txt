@@ -1,0 +1,5 @@
+numpy
+requests
+praw
+psaw
+evilparser (https://github.com/evilja/evilparser)
