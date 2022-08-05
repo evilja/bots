@@ -2,4 +2,4 @@ numpy
 requests
 praw
 psaw
-evilparser (https://github.com/evilja/evilparser)
+evilparser==2.1.17build9 (https://github.com/evilja/evilparser)
