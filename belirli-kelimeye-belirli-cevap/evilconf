@@ -1,19 +1,18 @@
-::sikilmesi_gereken_hesaplar
+::sikilmesi_gereken_hesaplar;array
 // Burada hedef kişi(lerin) hesapları olmalı. u/ olmadan yazın. Örnek:
-&floodlar-com
+floodlar-com
 evillja
 sea_kaplumbagasi
 radiomarca
 
-::tetikleyici
+::tetikleyici;char*
 // Burada string şeklinde bir tetikleyici belirliyoruz.
--tetikleyici
+tetikleyici
 // Sadece 1 tane olacak, - = string, & = liste, ! = integer
 
 
-::textler
+::textler;array
 // Burada eğer attığı commentte tetikleyici geçiyorsa göndereceği yazı(lar) olmalı
-
-&yazı1
+yazı1
 yazı2
 yazı3
